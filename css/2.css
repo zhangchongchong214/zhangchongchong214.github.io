@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body, html, div, blockquote, img, label, p, h1, h2, h3, 
+
+h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	color: #000;
+	text-align: center;
+}
+.clearit{clear:both;}
+a:link{ text-decoration:none}
+ a:visit{ text-decoration:none}
+ a:hover{ text-decoration:none}
+.all{ background-image: url(../images/%E6%9C%AA%E6%A0%87%E9%A2%98-3.jpg);background-size:cover; overflow:hidden; }
+.dabuju{ width:960px; margin:0 auto;}
+.dingbu{ width:960px;  height:30px; line-height:30px; }
+.daohang{ width:960px; height:50px;}
+.daohang p{ width:240px; height:50px; line-height:50px; float:left; text-align:center; background-color: #06C; overflow:hidden}
+.daohang p a{ text-decoration:none;color:#CCC; font-size:14px; }
+.neirong{ width:940px; padding:10px; height:500px; margin:0 auto ; border:1px solid #000}
+.neirong tr td{
+	border:1px solid #000;
+	text-align: center;
+}
+.neirong tr td p{
+	line-height:40px;
+	font-size: 12px;
+	text-align: left;
+}
+.a{ background-color:#06C; height:40px; line-height:40px}
+.b{background-color: #06C; height:40px; line-height:40px}
+.neirong tr td p a{ text-decoration:none; }
+.neirong p{ line-height:30px; text-align:left}
+.zhongxin{
+	width:940px;
+	padding:10px;
+	height:900px;
+	margin:0 auto;
+	border:1px solid #000;
+	text-align: left;
+} 
+.zhongxin tr td{ border:1px solid #000}
+.zhongxin p{ line-height:30px; text-align:left;}
+.zhongxin h2{ text-align:left}
+.zhongxin{}
+.center { border:1px solid #000000}
+.center p{ text-align:left}
+.z{width:940px; padding:10px; height:700px; margin:0 auto ; border:1px solid #000 }
+.z p{
+	line-height:40px;
+	font-size: 12px;
+	text-align: left;
+}
+.foot{
+	width:960px;
+	height:60px;
+	background-color: #06C;
+	line-height:60px;
+	border-top:2px dashed #FFF
+}
+.foot p{ color:#FFF}
